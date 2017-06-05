@@ -38,13 +38,13 @@ app.use(function(req, res, next) {
   err.status = 404;
   next(err);
 });
-/*
+
 router.post('/',function(req,res,next){
 	console.log('post server call');
 	var msg = req.body.msg;
 	//res.send({result:true,msg:msg});
 });
-
+/*
 app.get('/get',function(req,res,next){
 	console.log('post server call');
 	var msg = {
